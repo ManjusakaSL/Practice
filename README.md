@@ -18,7 +18,7 @@ git push -u origin master
 
 # Delete file from remote repository
 
-git pull you origin
+git pull origin
 
 git checkout 
 
@@ -28,4 +28,4 @@ git add .
 
 git commit -m "remove dir"
 
-git push you origin
+git push origin
