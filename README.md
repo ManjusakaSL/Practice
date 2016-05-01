@@ -17,3 +17,23 @@ git push -u TEST master
 git remote add TEST git@github.com:ManjusakaSL/Practice.git
 
 git push -u TEST master
+
+# Delete file from remote repository
+
+git pull you git url
+
+git checkout 
+
+rm -r dirName
+
+git add --all
+
+git commit -m"remove dir"
+
+git push you git url
+
+input your name 
+
+input your password
+
+
