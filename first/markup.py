@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #coding=utf8
+=======
+#coding=utf-8
+>>>>>>> ecf18e31129d43432d387f0d0bc3bf408c0d5f4c
 import re, sys
 from util import *
 from handlers import *
@@ -46,7 +50,10 @@ class BasicParser(Parser):
         self.addFilter(r'(http://[\.a-zA-Z/]+)', 'url')
         self.addFilter(r'([\.a-zA-Z]+@[\.a-zA-Z]+)', 'mail')
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ecf18e31129d43432d387f0d0bc3bf408c0d5f4c
 handler = HandlerHTML()
 parser = BasicParser(handler)
 parser.parse(sys.stdin)
